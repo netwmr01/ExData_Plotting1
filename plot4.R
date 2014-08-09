@@ -18,7 +18,7 @@ png(filename="plot4.png", width=480, height=480, units="px");
 #setting up the 2 by 2 plot
 par(mfrow=c(2,2))
 #1st
-plot(dfsub$Global_active_power ~ dfsub$datetime, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
+plot(dfsub$Global_active_power ~ dfsub$datetime, type = "l", ylab = "Global Active Power", xlab = "")
 #2nd
 plot(dfsub$Voltage ~ dfsub$datetime, xlab = "datetime", ylab = "Voltage", type = "l")
 #3rd
